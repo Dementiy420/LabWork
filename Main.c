@@ -14,5 +14,10 @@ int main(int argc, char** argv)
 
 	printf("Hello, %s!\n", name);
 	printf("Hello %s %s!\n", first, last);
+
+	int a = 10;
+	int b = 88;
+	int c = a + b;
+	fprintf("a - b = %d \n", c)
 	return 0;
 }
