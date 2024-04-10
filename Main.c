@@ -18,6 +18,8 @@ int main(int argc, char** argv)
 	int a = 10;
 	int b = 88;
 	int c = a + b;
-	fprintf("a - b = %d \n", c)
+	int d = a - b;
+	fprintf("a + b = %d \n", c);
+	fprintf("a - b = %d \n", d);
 	return 0;
 }
